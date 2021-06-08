@@ -20,6 +20,7 @@ def client_program():
         message = input(" -> ")  # again take input
 
     client_socket.close()  # close the connection
+    
 
 
 if __name__ == '__main__':
