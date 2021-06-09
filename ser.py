@@ -6,3 +6,4 @@ while True;
 clientsocket, address=s.accept()
 print(f"connection from {address}has beeb established!")
 clientsocket.send(bytes("welcome to the server!","ütf-8"))
+
